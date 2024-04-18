@@ -1,0 +1,16 @@
+---
+title: "Dawn, gently down the doodle line ..."
+image: dawn.png
+about:
+  template: marquee
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+Welcome to my cumbersome world feeded and filled of deadly doodles.
