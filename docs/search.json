@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "a-lambda-blog",
+    "title": "a lambda blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 17, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 14, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Nouvelle en devenir\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n30 avr. 2024\n\n\na lambda\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenue dans mon quasi Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n30 avr. 2024\n\n\na lambda\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -23,8 +23,15 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Bienvenue dans mon quasi Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Bienvenue dans ce méli-mélo de mots intrigants\n\nL’image que vous voyez laisse à penser que quelque chose tourne rond quelque part.\nVous remarquerez aussi que la polaire ne l’est pas autant qu’on le présume :)"
+  },
+  {
+    "objectID": "posts/nouvelle/index.html",
+    "href": "posts/nouvelle/index.html",
+    "title": "Nouvelle en devenir",
+    "section": "",
+    "text": "Les mots ont des cheveux, plus ou moins longs, selon que vous les brossiez dans le sens du poêle ou pas, et surtout en hiver.\nVoici donc le titre d’une nouvelle que je m’apprête à nourrir collaborativement à l’aide de mes extrémités digitales et peut-être aussi quelques cellules nerveuses de mon cortex vieillissant. J’espère que mes chères gliales auront eu le temps de faire les poussières dans les interstices de mes pensées régulièrement encombrées.\nExempt de toute logorrhée, mon esprit n’en demeure pas moins souvent emprunt d’une certaine nébulosité désespérément étrangère à tout un chacun se clamant faire partie de l’espèce humaine.\nToute anomalie spectro-encéphalique constatée dans la suite de ce récit ne pourra être imputée qu’à un désordre inhérent au fonctionnement poussif de la structure cérébrale dont j’ai modestement hérité.\nBienvenue dans cette non-nouvelle."
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "a-lambda-blog"
+title: "a lambda blog"
 listing:
   contents: posts
   sort: "date desc"
