@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "a lambda blog"
+  title: "Mon vestibule ..."
   navbar:
     right:
       - about.qmd
