@@ -3,6 +3,6 @@ title: "Couplufin et Patafiole"
 author: "a lambda"
 date: "2024-05-02"
 categories: [news]
-image: "cocon.PNG"
+image: ""
 ---
 
