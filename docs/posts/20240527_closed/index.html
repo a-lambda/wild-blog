@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="a lambda">
 
-<title>Mon vestibule … - Soliloques</title>
+<title>Mon vestibule … - Alors ? Ouvert ou Fermé ?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +67,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Mon vestibule …</span>
     </a>
   </div>
@@ -149,7 +90,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Dawn, gently down the doodle line …</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,242 +113,68 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Soliloques</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Alors ? Ouvert ou Fermé ?</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>a lambda </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">27 mai 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(6)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>Cette étrange interrogation que j’aurais d’ailleurs plutôt dû décliner au féminin n’est ici qu’un prétexte pour dévoiler comment certains mots, d’un usage tout naturel, arborent une capacité étonnante à concurrencer numériquement leur antonyme ; comme le néant le ferait avec l’infini, dans le cadre des notions respectives qu’ils décrivent.</p>
+<p>Revenons-en donc à nos moutons, ou plutôt à nos portes, car c’est avant tout d’elles dont il s’est agi pour moi initialement.</p>
+<p>Peu importe l’allure que vous saurez lui donner, ce parallélépipède rectangle si commun, que l’on pourrait à l’extrême symboliser par un simple rectangle, possède la capacité étonnante de se retrouver dans une situation qualifiée d’ «ouverte » , à des degrés plus ou moins divers je vous le concède, ou bien dans une seconde situation appelée « fermée ».</p>
+<p>Problème futile et même inutile me direz-vous, mais de l’une à l’autre je me suis toujours demandé à quel moment la sanction tomba.</p>
+<p>Voici comment je pourrais détailler l’expérience.</p>
+<p>Soit donc une porte, grande ouverte, soumise au courant d’une inspiration soudaine.<br> Elle commence à se mouvoir et prendre un certain élan en direction du chambranle bientôt tout proche.</p>
+<p>Examinons alors la situation au ralenti. Il ne reste plus qu’un doigt à parcourir. Agrandissons maintenant la portion située tout juste au niveau de la clenche. La course continue et il ne reste plus qu’un millimètre avant l’auguste événement. Rapprochons-nous d’encore plus près. Un micron nous sépare maintenant de cette fameuse limite qui nous vaudra un silence d’émoi, tout autant que de désarroi.</p>
+<p>En fait, je vous l’affirme dès à présent, jamais, et à aucun moment, vous ne la verrez dans cet état, car comme l’infini s’entend sans se comprendre, une porte se déclame fermée sans jamais l’être.</p>
+<p>Cela vaut tout autant pour une horloge dont les aiguilles sont immobiles et dont on assène à l’envi qu’elle donne l’heure exacte 2 fois par jour. Cette réalité mathématique-là échappera à jamais à notre réalité sensible.</p>
+<p>Et pourtant nous martelons ces propos avec une conviction forte et profonde qui n’échappera à personne.</p>
+<p>Ces notions symboliques que revêtent les termes « ouvert » et « fermé » opèrent culturellement pour qualifier des états qui tendent à nous parler dans le cadre de nos comportements habituels.</p>
+<p>Mais ces termes que je décrie sous l’égide d’un certain recul un peu absurde au premier abord, il serait tout aussi possible d’en créer d’autres qui correspondraient à l’une quelconque des situations intermédiaires, que j’appellerais exactes (et pas forcément discrètes), et que l’on n’atteint aussi définitivement qu’avec l’aide de nos mathématiques.</p>
+<p>Ainsi la porte ouverte à 189,893213° pourrait se voir gagner une existence dans un mot spécifique taillé pour la décrire, pourquoi pas “quasi-grande-ouverte” ?</p>
+<p>Et convainquons-nous dès à présent d’une chose, une porte « quasi-ouverte » jouirait d’autant d’existence que sa compagne « fermée ».</p>
+<p>Et l’injonction de parvenir dans cet état ne relève que d’une imposture que ce mot ne dénonce à aucun moment.</p>
+<p>Alors de «quasi-grande-ouverte» à «fermée» il y a surement plus d’un pas, dont l’inconsistance ne se sera complétement révélée que lorsque vous serez parvenu au bout de mon chemin.</p>
+<p>Histoire un peu abracadabrante sans doute mais ne m’en veuillez pas et … évitez de claquer la porte en sortant, merci :)</p>
+<p>” … des concepts insensés dont nous usons quotidiennement et qui nous semblent si naturels que nous oublions tout aussi docilement leur total degré d’inconsistance … esclaves de nos prisons mentales …“.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1716760800000" data-listing-file-modified-sort="1716847169218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="545">
-<div class="thumbnail">
-<p><a href="./posts/20240527_closed/index.html" class="no-external"></a></p><a href="./posts/20240527_closed/index.html" class="no-external">
-<p><img src="./posts/20240527_closed/porte.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240527_closed/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240527_closed/index.html" class="no-external">Alors ? Ouvert ou Fermé ?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240527_closed/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240527_closed/index.html" class="no-external">Cette étrange interrogation que j’aurais d’ailleurs plutôt dû décliner au féminin n’est ici qu’un prétexte pour dévoiler comment certains mots, d’un usage tout naturel…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240527_closed/index.html" class="no-external">
-<div class="listing-date">
-27 mai 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1714860000000" data-listing-file-modified-sort="1716840747044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/20240505_reflet/index.html" class="no-external"></a></p><a href="./posts/20240505_reflet/index.html" class="no-external">
-<p><img src="./posts/20240505_reflet/Magie_blanche.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240505_reflet/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240505_reflet/index.html" class="no-external">Que nous dit notre reflet ?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240505_reflet/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240505_reflet/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240505_reflet/index.html" class="no-external">
-<div class="listing-date">
-5 mai 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1714687200000" data-listing-file-modified-sort="1716840747041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/20240503_couplufin/index.html" class="no-external"></a></p><a href="./posts/20240503_couplufin/index.html" class="no-external">
-<p><img src="./posts/20240503_couplufin" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240503_couplufin/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240503_couplufin/index.html" class="no-external">Couplufin et Patafiole</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240503_couplufin/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240503_couplufin/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240503_couplufin/index.html" class="no-external">
-<div class="listing-date">
-3 mai 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1716840747041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<div class="thumbnail">
-<p><a href="./posts/20240502_langage/index.html" class="no-external"></a></p><a href="./posts/20240502_langage/index.html" class="no-external">
-<p><img src="./posts/20240502_langage/Dragibus.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240502_langage/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240502_langage/index.html" class="no-external">Qu’est-ce à dire “un chat” ?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240502_langage/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240502_langage/index.html" class="no-external">De l’imposture de la communication.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240502_langage/index.html" class="no-external">
-<div class="listing-date">
-2 mai 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="news" data-listing-date-sort="1714514400000" data-listing-file-modified-sort="1716840747035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
-<div class="thumbnail">
-<p><a href="./posts/20240501_nouvelle/index.html" class="no-external"></a></p><a href="./posts/20240501_nouvelle/index.html" class="no-external">
-<p><img src="./posts/20240501_nouvelle/cocon.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240501_nouvelle/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240501_nouvelle/index.html" class="no-external">Nouvelle en devenir</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240501_nouvelle/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240501_nouvelle/index.html" class="no-external">Les mots ont des cheveux, plus ou moins longs, selon que vous les brossiez dans le sens du poêle ou pas, et surtout en hiver.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240501_nouvelle/index.html" class="no-external">
-<div class="listing-date">
-1 mai 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1714428000000" data-listing-file-modified-sort="1716840747031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail">
-<p><a href="./posts/20240430_welcome/index.html" class="no-external"></a></p><a href="./posts/20240430_welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\20240430_welcome\circumpolaire.PNG"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/20240430_welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240430_welcome/index.html" class="no-external">Bienvenue dans mon quasi Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240430_welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240430_welcome/index.html" class="no-external">Bienvenue dans ce méli-mélo de mots intrigants</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240430_welcome/index.html" class="no-external">
-<div class="listing-date">
-30 avr. 2024
-</div>
-<div class="listing-author">
-a lambda
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
