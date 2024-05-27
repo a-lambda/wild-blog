@@ -1,7 +1,0 @@
----
-title: "Alors ? Ouvert ou Fermé ?"
-author: "a lambda"
-date: "2024-05-04"
-categories: [news]
-image: ""
----
