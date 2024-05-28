@@ -1,7 +1,7 @@
 ---
 title: "Que nous dit notre reflet ?"
 author: "a lambda"
-date: "2024-05-05"
+date: "2024-07-01"
 categories: [news]
 image: "Magie_blanche.png"
 ---
