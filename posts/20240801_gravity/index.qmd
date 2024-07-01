@@ -1,0 +1,14 @@
+---
+title: "Lorsque tomber fait sens ..."
+author: "a lambda"
+date: "2024-08-01"
+categories: [news]
+image: "gravity.png"
+---
+
+ou lorsque les lois de la physique dictent la posture de nos lieux communs
+
+<!-- 
+à l'échelle des molécules ces lieux n'ont plus cours
+décrire l'origine d'un haut ou d'un bas des choses -->
+
