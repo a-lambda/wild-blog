@@ -3,7 +3,7 @@ title: "La forge du monde"
 author: "a lambda"
 date: "2024-10-01"
 categories: [news]
-image: "world_without_words.png"
+image: "forge.png"
 ---
 
 Un monde sans mots dire ou l'absence de l'indit 
