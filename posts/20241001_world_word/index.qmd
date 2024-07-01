@@ -1,0 +1,18 @@
+---
+title: "La forge du monde"
+author: "a lambda"
+date: "2024-10-01"
+categories: [news]
+image: "world_without_words.png"
+---
+
+Un monde sans mots dire ou l'absence de l'indit 
+
+<!-- 
+Comment le langage forge le monde
+-->
+...
+?
+!!!
+
+PS : vous vous attendiez à quoi ?:))
