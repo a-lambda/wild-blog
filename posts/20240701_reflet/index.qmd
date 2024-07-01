@@ -5,3 +5,10 @@ date: "2024-07-01"
 categories: [news]
 image: "Magie_blanche.png"
 ---
+
+<!-- 
+De la référence
+Ou du symbole au signe
+Ou comment passer de l'innommable à l'écrit 
+-->
+
