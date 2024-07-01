@@ -3,7 +3,7 @@ title: "Lorsque tomber fait sens ..."
 author: "a lambda"
 date: "2024-08-01"
 categories: [news]
-image: "gravity.png"
+image: "albator.png"
 ---
 
 ou lorsque les lois de la physique dictent la posture de nos lieux communs
