@@ -3,7 +3,7 @@ title: "Maintenant n'existe pas"
 author: "a lambda"
 date: "2024-11-01"
 categories: [news]
-image: "treecolor.png"
+image: "aurores.png"
 ---
 
 Où se cache le temps d'en dire ?
