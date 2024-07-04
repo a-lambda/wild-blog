@@ -6,7 +6,7 @@ categories: [news]
 image: "treecolor.png"
 ---
 
-Le temps d'en dire n'existe pas.
+Où se cache le temps d'en dire ?
 
 Il est de ces mystères qui sabordent toute cohérence dans notre manière de penser. De ceux qui vous précipitent dans une totale ciconspection dès que vous en avez circonvenu les étranges contours, ou tout au moins compris qu'ils pouvaient ne même pas en être dotés.
 
