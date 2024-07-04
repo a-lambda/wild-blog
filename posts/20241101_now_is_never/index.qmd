@@ -1,9 +1,9 @@
 ---
 title: "Maintenant n'existe pas"
 author: "a lambda"
-date: "2024-10-01"
+date: "2024-11-01"
 categories: [news]
-image: "forge.png"
+image: "treecolor.png"
 ---
 
 Le temps d'en dire n'existe pas.
