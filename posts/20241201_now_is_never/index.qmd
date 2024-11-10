@@ -1,7 +1,7 @@
 ---
 title: "Maintenant n'existe pas"
 author: "a lambda"
-date: "2024-11-01"
+date: "2024-12-01"
 categories: [news]
 image: "aurores.png"
 ---
