@@ -3,6 +3,13 @@ project:
   output-dir: docs
 
 website:
+  announcement:
+    icon: cone-striped
+    dismissable: true
+    content: |
+      "Vous lisez une version non finalisée d'un blog actuellement en cours d'élaboration"
+    type: primary
+    position: below-navbar
   title: "Mon vestibule ..."
   navbar:
     right:
