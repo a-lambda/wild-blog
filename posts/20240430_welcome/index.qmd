@@ -7,7 +7,7 @@ categories: [news]
 
 Bienvenue dans ce méli-mélo de mots intrigants
 
-![](circumpolaire.PNG)
+![](circumpolaire.png)
 
 L'image que vous voyez laisse à penser que quelque chose tourne rond quelque part.
 
