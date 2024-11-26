@@ -1,6 +1,6 @@
 ---
 title: "Dawn, gently down the doodle line ..."
-image: dawn.png
+image: dawn_boeschepe.png
 about:
   template: marquee
   links:
